@@ -9,7 +9,7 @@ function showArr(arr, elem) {
 
     }
     document.querySelector(elem).innerHTML = out;
-    document.querySelector('.out_length').innerHTML = `length arr ${animals.length}`;
+    document.querySelector('.out_length').innerHTML = `length array = ${animals.length} element(s)`;
     document.querySelector('.out').innerHTML = `const animals = ['${animals}']`;
 
 }
@@ -18,7 +18,7 @@ showArr(animals, '.out_img');
 
 function addToArray() {
     let index = parseInt(document.querySelector('.array_index').value);
-    if (index > 50) {
+    if (index > 30) {
         alert('WOOOW enter number less')
         return false;
     } else if (index < 0) {
