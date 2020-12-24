@@ -2,6 +2,8 @@ html,
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    margin: 0;
+    padding: 0;
 }
 
 .row {
@@ -23,29 +25,48 @@ input,
 button {
     padding: 8px;
     font-size: 1rem;
+    border-radius: 14px;
+}
+
+input {
+    margin: 0 10px 0 0;
+}
+
+button {
+    font-size: 1rem;
+    border-radius: 14px;
+    text-align: center;
+    padding: 9px;
 }
 
 .wrapper {
     margin: 40px 0 0;
 }
 
-.h2 {
-    margin-right: 40px;
-}
-
-.h1,
-.out,
-.out_length {
-    margin-right: 20px;
-}
-
 .index_text {
-    margin-right: 20px;
+    margin-right: 7px;
 }
 
 .array:before {
     content: '[';
     font-size: 5rem;
+}
+
+.h1 {
+    margin: 10px 0 10px;
+}
+
+.h2 {
+    margin: 0 20px 0;
+}
+
+.adding_el {
+    margin: 0 0 20px
+}
+
+.out_length,
+.out {
+    margin-bottom: 10px;
 }
 
 .array:after {
@@ -55,6 +76,10 @@ button {
 
 .array div {
     position: relative;
+}
+
+.out_top {
+    flex-direction: column;
 }
 
 .array div span {
@@ -77,10 +102,11 @@ select {
     -moz-appearance: none;
     -ms-appearance: none;
     appearance: none;
-    width: 140px;
+    width: 104px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
     border-radius: 14px;
     height: 44px;
     margin-right: 50px;
+    padding: 0 10px 0;
 }
