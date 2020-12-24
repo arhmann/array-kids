@@ -6,11 +6,21 @@
             padding: 0;
         }
         
+         :active,
+         :hover,
+         :focus {
+            outline: 0;
+            outline-offset: 0;
+        }
+        
         button {
             border: none;
             font: inherit;
             color: inherit;
             background-color: transparent;
+            cursor: pointer;
+            background: #fc0;
+            box-shadow: 2px 2px rgb(237, 219, 146), 4px 4px #fdfdfd;
         }
         
         .row {
@@ -74,6 +84,11 @@
         .out_length,
         .out {
             margin-bottom: 10px;
+        }
+        
+        .out {
+            background: #fc0;
+            border-radius: 10px;
         }
         
         .array:after {
